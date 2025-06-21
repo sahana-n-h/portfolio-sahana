@@ -41,7 +41,7 @@ pipeline {
         stage('Tag and Push to Render') {
             steps {
                 sh """
-                    docker pull $DOCKER_IMAGE
+                    docker pull --platform=linux/amd64 $DOCKER_IMAGE
                     docker tag $DOCKER_IMAGE registry.render.com/$RENDER_SERVICE_ID
                     docker push registry.render.com/$RENDER_SERVICE_ID
                 """
