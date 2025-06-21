@@ -15,6 +15,21 @@ pipeline {
             }
         }
 
+        stage('Check Docker') {
+            steps {
+                script {
+                    // Verify Docker is installed
+                    sh '''
+                        if ! command -v docker >/dev/null 2>&1; then
+                            echo "ERROR: Docker is not installed on this agent"
+                            exit 1
+                        fi
+                        docker --version
+                    '''
+                }
+            }
+        }
+
         stage('Login to Docker Hub') {
             steps {
                 withCredentials([usernamePassword(credentialsId: 'dockerhub-credentials', usernameVariable: 'DOCKERHUB_USR', passwordVariable: 'DOCKERHUB_PSW')]) {
@@ -35,21 +50,30 @@ pipeline {
 
         stage('Deploy to Render') {
             steps {
-                sh """
-                    curl -X POST \
-                    -H 'Authorization: Bearer $RENDER_API_KEY' \
-                    -H 'Content-Type: application/json' \
-                    -d '{"image": "$DOCKER_IMAGE"}' \
-                    https://api.render.com/v1/services/$RENDER_SERVICE_ID/deploys
-                """
+                script {
+                    def response = sh(script: """
+                        curl -X POST \
+                            -H 'Authorization: Bearer $RENDER_API_KEY' \
+                            -H 'Content-Type: application/json' \
+                            -d '{"image": "$DOCKER_IMAGE"}' \
+                            https://api.render.com/v1/services/$RENDER_SERVICE_ID/deploys
+                    """, returnStdout: true).trim()
+                    echo "Render Deploy Response: $response"
+                }
             }
         }
     }
 
     post {
         always {
-            node('') { // Use node with empty label to select any available agent
-                sh 'docker logout'
+            node('') {
+                sh '''
+                    if command -v docker >/dev/null 2>&1; then
+                        docker logout
+                    else
+                        echo "Docker not installed, skipping logout"
+                    fi
+                '''
             }
         }
     }
