@@ -46,10 +46,7 @@ pipeline {
 
     post {
         always {
-            // ✅ Wrap sh in node block to avoid MissingContextVariableException
-            node {
-                sh 'docker logout'
-            }
+            sh 'docker logout'
         }
     }
 }
