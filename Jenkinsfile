@@ -48,7 +48,9 @@ pipeline {
 
     post {
         always {
-            sh 'docker logout' // Removed node block since agent any provides context
+            node('') { // Use node with empty label to select any available agent
+                sh 'docker logout'
+            }
         }
     }
 }
