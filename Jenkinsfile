@@ -2,10 +2,8 @@ pipeline {
     agent any
 
     environment {
-        RENDER_API_KEY = credentials('render-api-key')
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
         DOCKER_IMAGE = 'sahanahosamani117/portfolio:latest'
-        RENDER_SERVICE_ID = 'srv-d1ati1nfte5s73drc4tg'
     }
 
     stages {
@@ -18,7 +16,6 @@ pipeline {
         stage('Check Docker') {
             steps {
                 script {
-                    // Verify Docker is installed
                     sh '''
                         if ! command -v docker >/dev/null 2>&1; then
                             echo "ERROR: Docker is not installed on this agent"
@@ -38,43 +35,32 @@ pipeline {
             }
         }
 
-        stage('Tag and Push to Render') {
+        stage('Push Docker Image to Docker Hub') {
             steps {
                 sh """
                     docker pull --platform=linux/amd64 $DOCKER_IMAGE
-                    docker tag $DOCKER_IMAGE registry.render.com/$RENDER_SERVICE_ID
-                    docker push registry.render.com/$RENDER_SERVICE_ID
+                    docker tag $DOCKER_IMAGE sahanahosamani117/portfolio:latest
+                    docker push sahanahosamani117/portfolio:latest
                 """
             }
         }
 
-        stage('Deploy to Render') {
+        stage('Notify Deployment') {
             steps {
-                script {
-                    def response = sh(script: """
-                        curl -X POST \
-                            -H 'Authorization: Bearer $RENDER_API_KEY' \
-                            -H 'Content-Type: application/json' \
-                            -d '{"image": "$DOCKER_IMAGE"}' \
-                            https://api.render.com/v1/services/$RENDER_SERVICE_ID/deploys
-                    """, returnStdout: true).trim()
-                    echo "Render Deploy Response: $response"
-                }
+                echo "Render will now pull the updated Docker image automatically."
             }
         }
     }
 
     post {
         always {
-            node('') {
-                sh '''
-                    if command -v docker >/dev/null 2>&1; then
-                        docker logout
-                    else
-                        echo "Docker not installed, skipping logout"
-                    fi
-                '''
-            }
+            sh '''
+                if command -v docker >/dev/null 2>&1; then
+                    docker logout
+                else
+                    echo "Docker not installed, skipping logout"
+                fi
+            '''
         }
     }
 }
