@@ -48,9 +48,7 @@ pipeline {
 
     post {
         always {
-            node { // Wrap sh step in a node block to provide workspace context
-                sh 'docker logout'
-            }
+            sh 'docker logout' // Removed node block since agent any provides context
         }
     }
 }
