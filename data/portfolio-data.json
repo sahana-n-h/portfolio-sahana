@@ -23,18 +23,19 @@
         "icon": "Linkedin"
       },
       {
-        "platform": "Instagram",
-        "url": "https://www.instagram.com/sahana_.nh/",
-        "icon": "Instagram"
+        "platform": "Portfolio",
+        "url": "",
+        "icon": "Portfolio"
       }
     ]
   },
   "about": {
-    "bio": "Detail-oriented and results-driven Software Engineer Associate with over 3 years of professional experience at Cognizant, specializing in the design, development, testing, and maintenance of robust software applications. Proficient in Agile methodologies, version control, and CI practices. Possess a strong foundation in full SDLC, problem-solving, and cross-functional collaboration.",
+    "bio": "Results-driven Software Engineer with over 3 years of experience at Cognizant, specializing in full-stack development, API design, and automated testing. Proficient in Python, Angular, Django, and JavaScript, with a proven track record of boosting operational efficiency by 30% through innovative solutions. Skilled in Agile methodologies, CI/CD pipelines, and cross-functional collaboration. Currently pursuing a Masters in Computer Science at Oregon State University, eager to leverage technical expertise to deliver high-impact software solutions in a dynamic environment.",
     "focus": [
       "Designing and implementing REST APIs for seamless system communication",
-      "Leading cross-functional teams in agile development environments",
-      "Developing comprehensive testing strategies and CI/CD pipelines"
+      "Developing full-stack applications with optimized performance",
+      "Implementing CI/CD pipelines and automated testing frameworks",
+      "Collaborating with cross-functional teams in Agile environments"
     ],
     "languages": [
       {
@@ -88,47 +89,66 @@
     {
       "title": "Software Engineer Associate",
       "company": "Cognizant Technology Solutions Ltd.",
+      "location": "Bengaluru, India",
       "period": "July 2022 - Sep 2024",
-      "description": "Specialized in API development, comprehensive testing practices, and cross-functional collaboration. Led initiatives in designing and implementing REST APIs while ensuring high-quality software delivery through robust testing strategies.",
+      "description": "Developed and deployed full-stack applications, designed REST APIs, and optimized database queries. Collaborated with cross-functional teams to deliver high-quality software solutions using Agile methodologies, achieving significant improvements in user engagement and system performance.",
       "achievements": [
-        "Designed and implemented REST APIs ensuring seamless communication between various systems",
-        "Developed and executed comprehensive unit and integration tests with QA teams",
-        "Optimized database queries for performance and extracted valuable business insights",
-        "Maintained comprehensive documentation supporting development and maintenance activities"
+        "Developed full-stack applications using Python, Django, Angular, and JavaScript, improving user engagement by 20%",
+        "Designed and tested REST APIs, reducing response times by 15% through optimized endpoints",
+        "Executed unit and integration tests using Pytest, achieving 90% test coverage and reducing defects by 10%",
+        "Optimized SQL queries in MySQL, cutting execution time by 25% for data-driven insights",
+        "Coordinated with teams to deliver comprehensive API documentation, accelerating project delivery by 15%"
       ],
       "technologies": [
+        "Python",
+        "Django",
+        "Angular",
+        "JavaScript",
         "REST APIs",
-        "Unit Testing",
-        "Integration Testing",
-        "Database Management",
-        "Cross-functional Collaboration"
+        "Pytest",
+        "MySQL",
+        "Agile Methodologies"
       ]
     },
     {
       "title": "Software Engineer Intern",
       "company": "West Coast Paper Mills",
+      "location": "Dandeli, India",
       "period": "June 2021 - June 2022",
-      "description": "Spearheaded the development of a cutting-edge inventory management system, leading to significant operational improvements. Implemented automated testing frameworks and CI/CD pipelines while mentoring junior team members.",
+      "description": "Led the development of a full-stack inventory management system, implemented CI/CD pipelines, and built data visualization dashboards. Mentored interns and ensured seamless project delivery through Agile sprints and detailed documentation.",
       "achievements": [
         "Developed inventory management system using Python, JavaScript, and MongoDB, increasing operational efficiency by 30%",
         "Engineered optimized algorithms for real-time data processing, reducing system latency by 25%",
-        "Implemented automated testing frameworks using Pytest and Jenkins, achieving 95% test coverage",
-        "Led a team of 3 interns in agile development sprints and mentored peers on best practices"
+        "Implemented CI/CD pipelines using Jenkins and Ansible, achieving 95% test coverage with Pytest",
+        "Built data visualization dashboards using React and D3.js for inventory forecasting",
+        "Mentored 3 interns in Agile sprints, delivering training on Git and code quality"
       ],
-      "technologies": ["Python", "JavaScript", "MongoDB", "Docker", "Pytest", "Jenkins", "React.js", "Git"]
+      "technologies": [
+        "Python",
+        "JavaScript",
+        "MongoDB",
+        "React",
+        "D3.js",
+        "Docker",
+        "Terraform",
+        "Jenkins",
+        "Ansible",
+        "Pytest",
+        "Git"
+      ]
     }
   ],
   "education": [
     {
-      "degree": "Masters in Computer Science",
+      "degree": "Master of Science in Computer Science",
       "institution": "Oregon State University",
-      "year": "2024 - Present",
+      "year": "Sep 2024 - Present",
       "logo": "/logo-osu.png"
     },
     {
-      "degree": "Bachelor of Technology Computer Science",
+      "degree": "Bachelor of Technology in Computer Science",
       "institution": "Indian Institute of Information Technology",
-      "year": "2018 - 2022",
+      "year": "Jul 2018 - Jun 2022",
       "logo": "/logo-iiit.png"
     }
   ],
@@ -147,66 +167,137 @@
       "date": "Jun 2025",
       "logo": "/sky-logo.png",
       "credentialId": "C9YHufP9JqnvQ5X6W",
-      "skills": ["React.js, TailwindCSS", "JavaScript", "HTML"],
+      "skills": ["React.js", "TailwindCSS", "JavaScript", "HTML"],
       "url": "https://drive.google.com/file/d/1Pa3JbbYlCcRWKr-Th93fZ5MLQVgYM8kc/view?usp=drive_link"
     }
   ],
   "technicalSkills": {
-    "languages": ["C", "C++", "Python 3", "JavaScript", "TypeScript", "Angular", "React", "R", "HTML", "TailwindCSS"],
-    "tooling": ["Git/Github", "VS Code", "Postman", "Jenkins", "Kubernetes", "Docker"],
-    "databases": ["AWS Suite", "MongoDB", "MySQL", "Microsoft Access", "Firebase"],
+    "languages": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "C",
+      "C++",
+      "HTML",
+      "TailwindCSS"
+    ],
+    "frameworksAndLibraries": [
+      "Angular",
+      "React.js",
+      "Django",
+      "Express.js",
+      "Node.js",
+      "Next.js"
+    ],
+    "tooling": [
+      "Git",
+      "VS Code",
+      "Postman",
+      "Jenkins",
+      "Ansible",
+      "Terraform",
+      "Kubernetes",
+      "Docker",
+      "AWS EB",
+      "EC2"
+    ],
+    "databases": [
+      "MongoDB",
+      "MySQL",
+      "Firebase"
+    ],
     "relevantSkills": [
       "Object-Oriented Design",
       "Agile Methodologies",
-      "Software Development LifeCycle",
+      "Software Development Life Cycle",
       "REST APIs",
       "CI/CD",
-      "Software Architecture"
+      "Data Visualization"
     ]
   },
   "publications": [
     {
       "id": 1,
-      "title": "Identification of hate material in code-mixed social media data using demographic and contextual information",
-      "category": "NLP Research",
-      "shortDescription": "Advanced NLP research on detecting hate speech in code-mixed Hindi-English social media content using demographic and contextual analysis.",
+      "title": "Hash Cracker Web App",
+      "category": "Full-Stack Development",
+      "shortDescription": "Full-stack web application to reverse engineer SHA-256 hashes, deployed on AWS with CI/CD pipelines.",
       "description": [
-        "This research project examines innovative methods to detect targeted audience and severity of code-mixed/Hinglish (Hindi+English) hate speech in social media platforms.",
-        "The project focuses on distinguishing hate speech from general profanity by incorporating demographic and contextual information, which is crucial for accurate detection in multilingual environments.",
-        "We established lexical baselines for this challenging task by applying advanced NLP algorithms using custom datasets and specialized embeddings designed for code-mixed content."
+        "Developed a full-stack web application using React.js and Node.js to reverse engineer SHA-256 hashes.",
+        "Integrated CI/CD pipelines with Jenkins for automated testing and deployment.",
+        "Deployed the application on AWS Elastic Beanstalk with Swagger API documentation for enhanced accessibility."
       ],
       "features": [
-        "Custom dataset creation for Hindi-English code-mixed content",
-        "Advanced NLP algorithms for hate speech detection",
-        "Demographic and contextual analysis integration",
-        "Lexical baseline establishment for code-mixed languages",
-        "Severity classification of hate speech content"
+        "SHA-256 hash reverse engineering",
+        "CI/CD pipeline integration with Jenkins",
+        "AWS Elastic Beanstalk deployment",
+        "Swagger API documentation",
+        "Responsive user interface with React.js"
       ],
-      "technologies": ["Python", "NLP", "Machine Learning", "TensorFlow", "NLTK", "Scikit-learn", "Pandas", "NumPy"],
-      "timeline": "6 months (2021-2022)",
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "AWS Elastic Beanstalk",
+        "Jenkins",
+        "Swagger"
+      ],
+      "timeline": "2021-2022",
+      "role": "Full-Stack Developer",
+      "url": "",
+      "impact": "Provided a tool for secure hash analysis with automated deployment workflows",
+      "coverImage": "/hash-cracker.png",
+      "thumbnailImage": "/hash-cracker-thumb.png"
+    },
+    {
+      "id": 2,
+      "title": "Identification of hate material in code-mixed social media data using demographic and contextual information",
+      "category": "NLP Research",
+      "shortDescription": "NLP research on detecting Hinglish hate speech using demographic and contextual analysis with custom embeddings.",
+      "description": [
+        "Conducted research to detect hate speech in code-mixed Hindi-English (Hinglish) social media content.",
+        "Established lexical baselines using advanced NLP algorithms and custom embeddings for accurate detection.",
+        "Integrated demographic and contextual information to distinguish hate speech from general profanity."
+      ],
+      "features": [
+        "Custom dataset for Hinglish content",
+        "Advanced NLP algorithms for hate speech detection",
+        "Demographic and contextual analysis",
+        "Lexical baseline establishment",
+        "Severity classification of hate speech"
+      ],
+      "technologies": [
+        "Python",
+        "NLP",
+        "Machine Learning",
+        "TensorFlow",
+        "NLTK",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy"
+      ],
+      "timeline": "2021-2022",
       "role": "Lead Researcher & Developer",
       "url": "https://drive.google.com/file/d/1GFR0G1TAMhl6SEpwM3wRtEFod1FxQ87N/view?usp=sharing",
-      "impact": "Contributed to safer social media environments through improved hate speech detection",
+      "impact": "Enhanced social media safety through improved hate speech detection",
       "coverImage": "/research-hate-speech.png",
       "thumbnailImage": "/research-hate-speech-thumb.png"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "IndiaStack API for educational institutions",
       "category": "Full-Stack Development",
-      "shortDescription": "Comprehensive digital solution leveraging IndiaStack APIs to streamline educational institution admission processes.",
+      "shortDescription": "MERN stack web and mobile apps integrating Digilocker API to streamline educational admissions.",
       "description": [
-        "This project harnesses the power of IndiaStack APIs, notably the Digilocker API, to create a seamless digital infrastructure for educational institutions.",
-        "The solution aims to simplify and digitize the admission process by integrating government-verified document systems, reducing paperwork and processing time significantly.",
-        "The comprehensive technology stack includes web applications built with MERN stack and native mobile applications for both iOS and Android platforms, ensuring accessibility across all devices."
+        "Developed a MERN stack web application and mobile apps using Swift and Java to integrate IndiaStack's Digilocker API.",
+        "Streamlined admission processes for educational institutions by digitizing document verification.",
+        "Ensured cross-platform accessibility with secure document storage and real-time application tracking."
       ],
       "features": [
-        "Integration with IndiaStack Digilocker API for document verification",
-        "Cross-platform mobile applications (iOS and Android)",
-        "Real-time application processing and status tracking",
-        "Secure document storage and verification system",
-        "Automated admission workflow management",
-        "Multi-institutional support and scalability"
+        "Digilocker API integration for document verification",
+        "Cross-platform mobile apps for iOS and Android",
+        "Real-time application processing and tracking",
+        "Secure document storage",
+        "Automated admission workflow"
       ],
       "technologies": [
         "MERN Stack",
@@ -219,10 +310,10 @@
         "React.js",
         "MongoDB"
       ],
-      "timeline": "8 months (2021-2022)",
+      "timeline": "2021-2022",
       "role": "Full-Stack Developer & API Integration Specialist",
       "url": "https://drive.google.com/file/d/1G4DX-2Ce94ntRixlSqjnxeJbMcs37_2t/view?usp=sharing",
-      "impact": "Streamlined admission processes for educational institutions, reducing processing time by 60%",
+      "impact": "Reduced admission processing time by 60% for educational institutions",
       "coverImage": "/research-indiastack.png",
       "thumbnailImage": "/research-indiastack-thumb.png"
     }
