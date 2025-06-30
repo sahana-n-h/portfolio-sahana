@@ -21,16 +21,11 @@
         "platform": "LinkedIn",
         "url": "https://www.linkedin.com/in/sahana-hosamani/",
         "icon": "Linkedin"
-      },
-      {
-        "platform": "Portfolio",
-        "url": "",
-        "icon": "Portfolio"
       }
     ]
   },
   "about": {
-    "bio": "Results-driven Software Engineer with over 3 years of experience at Cognizant, specializing in full-stack development, API design, and automated testing. Proficient in Python, Angular, Django, and JavaScript, with a proven track record of boosting operational efficiency by 30% through innovative solutions. Skilled in Agile methodologies, CI/CD pipelines, and cross-functional collaboration. Currently pursuing a Masters in Computer Science at Oregon State University, eager to leverage technical expertise to deliver high-impact software solutions in a dynamic environment.",
+    "bio": "Detail-oriented and results-driven Software Engineer with over 3 years of professional experience. Specializing in the design, development, testing, and maintenance of robust software applications. Proficient in Agile methodologies, version control, and DevOps practices. Possess a strong foundation in full SDLC, problem-solving, and cross-functional collaboration. Currently pursuing a Masters in Computer Science at Oregon State University, seeking to apply technical expertise and passion for innovation in a fast-paced, growth-oriented environment to drive high-quality software solutions and contribute meaningfully to team success.",
     "focus": [
       "Designing and implementing REST APIs for seamless system communication",
       "Developing full-stack applications with optimized performance",
@@ -87,26 +82,30 @@
   ],
   "experience": [
     {
-      "title": "Software Engineer Associate",
+      "title": "Software Engineer",
       "company": "Cognizant Technology Solutions Ltd.",
       "location": "Bengaluru, India",
-      "period": "July 2022 - Sep 2024",
-      "description": "Developed and deployed full-stack applications, designed REST APIs, and optimized database queries. Collaborated with cross-functional teams to deliver high-quality software solutions using Agile methodologies, achieving significant improvements in user engagement and system performance.",
+      "period": "April 2022 - Sep 2024",
+      "description": "Developed full-stack healthcare management applications, designed and tested REST APIs, and optimized database queries. Collaborated with cross-functional teams using Agile methodologies and Azure DevOps to deliver high-quality software solutions, improving user engagement and system performance.",
       "achievements": [
-        "Developed full-stack applications using Python, Django, Angular, and JavaScript, improving user engagement by 20%",
-        "Designed and tested REST APIs, reducing response times by 15% through optimized endpoints",
-        "Executed unit and integration tests using Pytest, achieving 90% test coverage and reducing defects by 10%",
-        "Optimized SQL queries in MySQL, cutting execution time by 25% for data-driven insights",
-        "Coordinated with teams to deliver comprehensive API documentation, accelerating project delivery by 15%"
+        "Developed full-stack healthcare management applications using Angular, TypeScript, Django, and Python, improving user engagement by 20% and streamlining patient data workflows",
+        "Designed and tested REST APIs with authentication tokens, enabling secure integration with third-party systems and reducing response times by 10% through optimized endpoints",
+        "Conducted API testing using Postman, ensuring robust endpoint functionality and reliability",
+        "Optimized MongoDB and MySQL queries for large patient datasets, reducing execution time by 25% for real-time insights",
+        "Executed unit and end-to-end tests using Pytest, achieving 90% test coverage and reducing production defects by 10%",
+        "Leveraged Azure DevOps for sprint planning and CI/CD pipelines, accelerating deployment cycles by 15% and maintaining legacy applications"
       ],
       "technologies": [
-        "Python",
-        "Django",
         "Angular",
-        "JavaScript",
+        "TypeScript",
+        "Django",
+        "Python",
         "REST APIs",
-        "Pytest",
+        "MongoDB",
         "MySQL",
+        "Pytest",
+        "Postman",
+        "Azure DevOps",
         "Agile Methodologies"
       ]
     },
@@ -117,23 +116,23 @@
       "period": "June 2021 - June 2022",
       "description": "Led the development of a full-stack inventory management system, implemented CI/CD pipelines, and built data visualization dashboards. Mentored interns and ensured seamless project delivery through Agile sprints and detailed documentation.",
       "achievements": [
-        "Developed inventory management system using Python, JavaScript, and MongoDB, increasing operational efficiency by 30%",
+        "Developed a full-stack inventory management system using MERN stack, increasing operational efficiency by 30% through automated stock tracking",
+        "Built interactive dashboards using Qualtrics and D3.js, providing actionable insights for inventory forecasting and resource allocation",
         "Engineered optimized algorithms for real-time data processing, reducing system latency by 25%",
-        "Implemented CI/CD pipelines using Jenkins and Ansible, achieving 95% test coverage with Pytest",
-        "Built data visualization dashboards using React and D3.js for inventory forecasting",
-        "Mentored 3 interns in Agile sprints, delivering training on Git and code quality"
+        "Implemented CI/CD pipelines using Jenkins, Ansible, and Jira, achieving 95% test coverage with Pytest and accelerating deployment cycles by 40%",
+        "Mentored 3 interns in Agile sprints, delivering training on Git and code quality, and ensured seamless project handovers with detailed documentation"
       ],
       "technologies": [
-        "Python",
-        "JavaScript",
-        "MongoDB",
-        "React",
+        "MERN Stack",
+        "Qualtrics",
         "D3.js",
-        "Docker",
-        "Terraform",
+        "MongoDB",
         "Jenkins",
         "Ansible",
+        "Jira",
         "Pytest",
+        "Docker",
+        "Terraform",
         "Git"
       ]
     }
@@ -146,7 +145,7 @@
       "logo": "/logo-osu.png"
     },
     {
-      "degree": "Bachelor of Technology in Computer Science",
+      "degree": "Bachelor of Science in Computer Science",
       "institution": "Indian Institute of Information Technology",
       "year": "Jul 2018 - Jun 2022",
       "logo": "/logo-iiit.png"
@@ -192,6 +191,7 @@
     ],
     "tooling": [
       "Git",
+      "GitHub",
       "VS Code",
       "Postman",
       "Jenkins",
@@ -199,8 +199,11 @@
       "Terraform",
       "Kubernetes",
       "Docker",
-      "AWS EB",
-      "EC2"
+      "AWS Suite",
+      "Azure DevOps",
+      "Jira",
+      "Qualtrics",
+      "Tableau"
     ],
     "databases": [
       "MongoDB",
@@ -208,9 +211,12 @@
       "Firebase"
     ],
     "relevantSkills": [
-      "Object-Oriented Design",
-      "Agile Methodologies",
+      "Object-Oriented Programming",
+      "Data Structures and Algorithms",
+      "Agile Methodology",
       "Software Development Life Cycle",
+      "Software Architecture",
+      "Design Patterns",
       "REST APIs",
       "CI/CD",
       "Data Visualization"
@@ -223,7 +229,7 @@
       "category": "Full-Stack Development",
       "shortDescription": "Full-stack web application to reverse engineer SHA-256 hashes, deployed on AWS with CI/CD pipelines.",
       "description": [
-        "Developed a full-stack web application using React.js and Node.js to reverse engineer SHA-256 hashes.",
+        "Developed a full-stack web application using Next.js and Node.js to reverse engineer SHA-256 hashes.",
         "Integrated CI/CD pipelines with Jenkins for automated testing and deployment.",
         "Deployed the application on AWS Elastic Beanstalk with Swagger API documentation for enhanced accessibility."
       ],
@@ -232,10 +238,10 @@
         "CI/CD pipeline integration with Jenkins",
         "AWS Elastic Beanstalk deployment",
         "Swagger API documentation",
-        "Responsive user interface with React.js"
+        "Responsive user interface with Next.js"
       ],
       "technologies": [
-        "React.js",
+        "Next.js",
         "Node.js",
         "AWS Elastic Beanstalk",
         "Jenkins",
@@ -316,6 +322,43 @@
       "impact": "Reduced admission processing time by 60% for educational institutions",
       "coverImage": "/research-indiastack.png",
       "thumbnailImage": "/research-indiastack-thumb.png"
+    },
+    {
+      "id": 4,
+      "title": "InterviewMate - AI-Powered Interview Preparation Platform",
+      "category": "Full-Stack Development",
+      "shortDescription": "Interactive voice-based interview preparation web app using AI voice agents and real-time feedback.",
+      "description": [
+        "Developed a full-stack web application using Next.js and Firebase to simulate real-time voice-based mock interviews.",
+        "Integrated Vapi AI voice agents and Google Gemini for AI-generated questions and feedback with custom prompt engineering.",
+        "Designed a responsive, modern UI using Tailwind CSS and shadcn/ui, ensuring cross-device compatibility."
+      ],
+      "features": [
+        "Firebase authentication for secure sign-up/sign-in",
+        "Real-time voice interviews with Vapi AI voice agents",
+        "AI-generated custom interview questions based on role, level, and tech stack",
+        "AI-driven feedback on communication, technical skills, and problem-solving",
+        "Full interview session transcripts",
+        "User dashboard for managing and reviewing past interviews",
+        "Responsive UI for desktop and mobile devices"
+      ],
+      "technologies": [
+        "Next.js",
+        "Firebase",
+        "TailwindCSS",
+        "shadcn/ui",
+        "Vapi AI",
+        "Google Gemini",
+        "Zod",
+        "Git",
+        "VS Code"
+      ],
+      "timeline": "2024-2025",
+      "role": "Full-Stack Developer & AI Integration Specialist",
+      "url": "",
+      "impact": "Enhanced job seekers' interview skills through realistic AI-driven practice and detailed feedback",
+      "coverImage": "/interview-mate.png",
+      "thumbnailImage": "/interview-mate-thumb.png"
     }
   ]
 }
